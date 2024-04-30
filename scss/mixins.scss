@@ -1,0 +1,217 @@
+@mixin gal-solo-img() {
+    width: 100%;
+    height: 378px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+@mixin solo-calloutpt1 () {
+    width: 216px;
+    height: 344px;
+    font-family: GillSansregular;
+    font-size: 300px;
+    text-shadow: 3px 3px 8px;
+    position: absolute;
+    top: 25%;
+
+}
+
+@mixin solo-calloutpt2 () {
+    width: 724px;
+    height: 161px;
+    font-family: GillSansregular;
+    font-size: 140px;
+    position: absolute;
+    right: 5%;
+    top: 65%;
+    right: 2%;
+}
+
+
+@mixin gal-text1 () {
+    width: 490px;
+    height: 133px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: GillSanslightitalic;
+    text-align: left;
+}
+
+
+@mixin gal-text2 () {
+    width: 451px;
+    height: 133px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: GillSanslightitalic;
+    text-align: left;
+}
+
+@mixin gal-solo-text-box() {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+@mixin single-blog-img {
+    background-image: linear-gradient(rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url(../images/blog\ \(1\).jpg);
+    width: 100%;
+    height: 300px;
+    // width: $home-content-width;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@mixin single-cal-box {
+    height: 60px;
+    width: 60px;
+    background-color: $site-red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+@mixin single-one {
+
+
+    font-family: GillSans;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+
+
+
+}
+
+@mixin single-two {
+
+
+    font-family: GillSans;
+    font-weight: lighter;
+    color: white;
+    font-size: 12px;
+
+}
+
+
+@mixin single-blog-header-one {
+    font-family: GillSansregular;
+    font-size: 20px;
+    color: $site-red;
+}
+
+
+@mixin single-blog-header-text {
+    font-family: GillSans;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 856px;
+    height: 125px;
+}
+
+
+@mixin single-blog-header-text-two {
+    font-family: GillSans;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 856px;
+    height: 84px;
+}
+
+
+@mixin footer-box {
+    .footer-box {
+        width: 100%;
+        background-color: $site-red;
+        height: 455px;
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            height: 455px;
+
+            .footer-event-logo {
+                background-image: url(../images/logo-white.png); // Remove space in filename
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 92px;
+                height: 42px;
+            }
+
+            .footer-location {
+                text-align: center;
+
+                .location1,
+                .location2,
+                .location3 {
+                    font-family: GillSansregular;
+                    font-size: 16px;
+                    color: white;
+                }
+            }
+
+            .form {
+                #fname {
+                    width: 529px;
+                    height: 60px;
+                    padding-left: 21px;
+                    font-family: GillSansregular;
+                    font-size: 16px;
+                    background-color: #F56B88;
+                    border: none;
+
+                    &::placeholder {
+                        color: white;
+                    }
+                }
+
+                .sub-button {
+                    height: 60px;
+                    width: 167px;
+                    background-color: white;
+                    font-family: GillSansregular;
+                    font-size: 16px;
+                    color: $site-red;
+                    border: none;
+                    margin-left: -5px;
+                }
+            }
+
+            .footer-icons {
+                .user {
+                    width: 22px;
+                    height: 22px;
+                    color: white;
+                }
+            }
+
+            .copyright-text {
+                width: 212px; // Added 'px' to width value
+                height: 14px;
+                font-family: GillSansregular;
+                font-size: 12px;
+                color: white;
+            }
+        }
+    }
+
+    .gal-add {
+        margin-top: 60px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,126 @@
+.single-blog-section {
+    max-width: $content-width;
+    margin: 0 auto;
+    margin-top: 140px;
+
+    .single-blog-img {
+        @include single-blog-img;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .single-cal-box {
+
+            @include single-cal-box;
+
+
+            .single-cal-one {
+                @include single-one;
+            }
+
+            .single-cal-two {
+                @include single-two;
+            }
+        }
+    }
+
+    .single-blog-header-one {
+
+        @include single-blog-header-one;
+        padding-top: 45px;
+        margin-bottom: 20px;
+
+
+    }
+
+    .single-blog-header-section {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 110px;
+
+
+
+
+        .single-blog-header-text {
+
+            @include single-blog-header-text-two;
+
+        }
+
+
+    }
+}
+
+
+
+@media all and (max-width: 800px) {
+
+
+
+    .single-blog-section {
+        max-width: $content-width;
+        margin: 0 auto;
+        margin-top: 140px;
+
+        padding: 15px;
+
+        .single-blog-img {
+            @include single-blog-img;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            .single-cal-box {
+
+                @include single-cal-box;
+
+
+                .single-cal-one {
+                    @include single-one;
+                }
+
+                .single-cal-two {
+                    @include single-two;
+                }
+            }
+        }
+
+        .single-blog-header-one {
+
+            @include single-blog-header-one;
+            padding-top: 45px;
+            margin-bottom: 20px;
+            margin-top: 50px;
+
+
+        }
+
+        .single-blog-header-section {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 110px;
+
+
+
+
+            .single-blog-header-text {
+
+                @include single-blog-header-text-two;
+
+
+            }
+
+
+        }
+    }
+}

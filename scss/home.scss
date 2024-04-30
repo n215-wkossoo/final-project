@@ -1,0 +1,729 @@
+.home {
+
+    padding: 10px;
+
+    .hero {
+        background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
+        width: 100%;
+        height: 500px;
+        // width: $home-content-width;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+
+    }
+
+    .callout-text-container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 156px;
+
+
+        .home-header {
+
+
+
+            height: 52px;
+            font-size: 40px;
+            font-family: PTSerif;
+            color: white;
+            padding-bottom: 10px;
+
+            .home-minitext {
+
+                height: 23px;
+                font-size: 20px;
+                font-family: GillSansitalic;
+                color: $site-red;
+                text-align: center;
+
+
+
+            }
+        }
+
+
+
+
+
+        .home-lorem {
+            width: 416px;
+            height: 46px;
+            font-family: GillSansitalic;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 50px;
+            color: white;
+
+        }
+
+
+
+        .callout-button {
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 123px;
+            height: 41px;
+            background-color: $site-red;
+
+
+            color: $site-white;
+            font-size: 15px;
+            font-family: GillSansregular;
+        }
+    }
+
+    .johnsmith-box {
+        width: $home-content-width;
+
+        background-color: white;
+        height: 300px;
+        display: flex;
+
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 0 auto;
+
+
+        .johnsmith-text-box {
+            width: 789px;
+
+            font-family: GillSansbolditalic;
+            color: $site-yellow;
+            font-size: 15px;
+            text-align: left;
+        }
+
+
+
+        .johnsmith-info {
+            margin-top: -90px;
+            height: 19px;
+            font-family: PTSerif;
+            font-size: 15px;
+            color: $site-red;
+
+            .company-box {
+                height: 13px;
+                color: #A8A8A8;
+                font-family: PTSerif;
+                font-size: 10px;
+            }
+        }
+    }
+
+
+    .events-container {
+        background-color: $site-purple;
+        width: 100%;
+        height: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .events-box {
+            //fc
+
+            width: 100%;
+
+
+
+            .events-heading {
+                width: 100%;
+                margin-left: 20px;
+                color: white;
+                font-size: 25px;
+                font-family: GillSansregular;
+                letter-spacing: 2px;
+
+                .events-line {
+                    border: solid;
+                    border-width: 1px;
+                    width: 392px;
+                    color: white;
+                    margin-bottom: 34px;
+                }
+            }
+
+            .event-flex-box {
+                //next
+                display: flex;
+                justify-content: space-evenly;
+                max-width: 1200px;
+
+
+                .events-calinfo {
+                    width: 60px;
+                    height: 60px;
+                    background-color: $site-red;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    .cal-box1 {
+                        font-family: GillSansregular;
+                        font-weight: bold;
+                        font-size: 22px;
+                        color: white;
+                    }
+
+                    .cal-box2 {
+                        font-family: GillSanslight;
+                        font-weight: bold;
+                        font-size: 12px;
+                        color: white;
+                    }
+
+                }
+
+                //next
+                .cal-text-box {
+
+
+                    .cal-text1 {
+
+
+                        width: 140px;
+                        height: 41px;
+                        font-size: 15px;
+                        font-family: GillSansregular;
+                        color: white;
+
+                    }
+
+
+                    .cal-text2 {
+                        width: 140px;
+                        height: 78px;
+                        font-size: 13px;
+                        font-family: GillSansregular;
+                        color: $site-red;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+    .footer-box {
+        width: 100%;
+        background-color: $site-red;
+        height: 455px;
+
+
+
+        .footer-content {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+
+            height: 455px;
+
+
+            .footer-event-logo {
+                background-image: url(../images/logo-white\ .png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 92px;
+                height: 42px;
+            }
+
+
+
+            .footer-location {
+
+                text-align: center;
+
+                .location1 {
+                    font-family: GillSansregular;
+                    font-size: 15px;
+
+                    color: white;
+
+
+                }
+
+
+                .location2 {
+                    font-family: GillSansregular;
+                    font-size: 16px;
+
+                    color: white;
+
+
+                }
+
+
+                .location3 {
+                    font-family: GillSansregular;
+                    font-size: 16px;
+
+                    color: white;
+
+                }
+            }
+
+
+            .form {
+                #fname {
+                    width: 529px;
+                    height: 60px;
+                    padding-left: 21px;
+                    font-family: GillSansregular;
+                    font-size: 16px;
+                    background-color: #F56B88;
+                    border: none;
+
+                }
+
+                #fname::placeholder {
+                    color: white;
+
+                }
+
+                .sub-button {
+                    height: 60px;
+                    width: 167px;
+                    background-color: white;
+                    font-family: GillSansregular;
+                    font-size: 16px;
+                    color: $site-red;
+                    border: none;
+                    margin-left: -5px;
+                }
+            }
+
+
+            .footer-icons {
+
+                .user {
+                    width: 22px;
+                    height: 22px;
+                    color: white;
+                }
+
+            }
+
+            .copyright-text {
+
+                width: 212;
+                height: 14px;
+                font-family: GillSansregular;
+                font-size: 12px;
+                color: white;
+            }
+
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media all and (max-width: 800px) {
+
+    .home {
+
+        padding: 10px;
+
+        .hero {
+            background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
+            width: 100%;
+            height: 500px;
+            // width: $home-content-width;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+
+        }
+
+        .callout-text-container {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 156px;
+
+
+            .home-header {
+
+
+
+                height: 52px;
+                font-size: 40px;
+                font-family: PTSerif;
+                color: white;
+                padding-bottom: 10px;
+
+                .home-minitext {
+
+                    height: 23px;
+                    font-size: 20px;
+                    font-family: GillSansitalic;
+                    color: $site-red;
+                    text-align: center;
+
+
+
+                }
+            }
+
+
+
+
+
+            .home-lorem {
+                width: 416px;
+                height: 46px;
+                font-family: GillSansitalic;
+                font-size: 20px;
+                text-align: center;
+                padding-top: 50px;
+                color: white;
+
+            }
+
+
+
+            .callout-button {
+                margin-top: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                width: 123px;
+                height: 41px;
+                background-color: $site-red;
+
+
+                color: $site-white;
+                font-size: 15px;
+                font-family: GillSansregular;
+            }
+        }
+
+        .johnsmith-box {
+            width: 100%;
+
+            background-color: white;
+            height: 300px;
+            display: flex;
+
+            justify-content: space-evenly;
+            flex-direction: column;
+            margin: 0 auto;
+
+
+            .johnsmith-text-box {
+                width: 100%;
+
+                font-family: GillSansbolditalic;
+                color: $site-yellow;
+                font-size: 15px;
+                text-align: left;
+            }
+
+
+
+            .johnsmith-info {
+                margin-top: -90px;
+                height: 19px;
+                font-family: PTSerif;
+                font-size: 15px;
+                color: $site-red;
+
+                .company-box {
+                    height: 13px;
+                    color: #A8A8A8;
+                    font-family: PTSerif;
+                    font-size: 10px;
+                }
+            }
+        }
+
+
+        .events-container {
+            background-color: $site-purple;
+            width: 100%;
+            min-height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+
+
+            .events-box {
+                //fc
+
+                width: 100%;
+
+
+
+                .events-heading {
+                    width: 100%;
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 25px;
+                    font-family: GillSansregular;
+                    letter-spacing: 2px;
+
+                    .events-line {
+                        border: solid;
+                        border-width: 1px;
+                        width: 392px;
+                        color: white;
+                        margin-bottom: 34px;
+                    }
+                }
+
+                .event-flex-box {
+                    //next
+                    display: flex;
+                    justify-content: space-evenly;
+                    max-width: 1200px;
+                    //background-color: indianred;
+
+                    flex-wrap: wrap;
+                    width: 600px;
+
+
+
+
+
+                    .events-calinfo {
+                        width: 60px;
+                        height: 60px;
+                        background-color: $site-red;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        .cal-box1 {
+                            font-family: GillSansregular;
+                            font-weight: bold;
+                            font-size: 22px;
+                            color: white;
+                        }
+
+                        .cal-box2 {
+                            font-family: GillSanslight;
+                            font-weight: bold;
+                            font-size: 12px;
+                            color: white;
+                        }
+
+                    }
+
+                    //next
+                    .cal-text-box {
+
+
+                        .cal-text1 {
+
+
+                            width: 140px;
+                            height: 41px;
+                            font-size: 15px;
+                            font-family: GillSansregular;
+                            color: white;
+
+                        }
+
+
+                        .cal-text2 {
+                            width: 140px;
+                            height: 78px;
+                            font-size: 13px;
+                            font-family: GillSansregular;
+                            color: $site-red;
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        .footer-box {
+            width: 100%;
+            background-color: $site-red;
+            height: 455px;
+
+
+
+            .footer-content {
+
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+
+                height: 455px;
+
+
+                .footer-event-logo {
+                    background-image: url(../images/logo-white\ .png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 92px;
+                    height: 42px;
+                }
+
+
+
+                .footer-location {
+
+                    text-align: center;
+
+                    .location1 {
+                        font-family: GillSansregular;
+                        font-size: 15px;
+
+                        color: white;
+
+
+                    }
+
+
+                    .location2 {
+                        font-family: GillSansregular;
+                        font-size: 16px;
+
+                        color: white;
+
+
+                    }
+
+
+                    .location3 {
+                        font-family: GillSansregular;
+                        font-size: 16px;
+
+                        color: white;
+
+                    }
+                }
+
+
+                .form {
+                    padding: 5px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    #fname {
+                        width: 100%;
+                        height: 60px;
+                        padding-left: 21px;
+                        font-family: GillSansregular;
+                        font-size: 16px;
+                        background-color: #F56B88;
+                        border: none;
+
+                    }
+
+                    #fname::placeholder {
+                        color: white;
+
+                    }
+
+                    .sub-button {
+                        height: 60px;
+                        width: 167px;
+                        background-color: white;
+                        font-family: GillSansregular;
+                        font-size: 16px;
+                        color: $site-red;
+                        border: none;
+                        margin-left: -5px;
+                    }
+                }
+
+
+                .footer-icons {
+
+                    .user {
+                        width: 22px;
+                        height: 22px;
+                        color: white;
+                    }
+
+                }
+
+                .copyright-text {
+
+                    width: 212;
+                    height: 14px;
+                    font-family: GillSansregular;
+                    font-size: 12px;
+                    color: white;
+                }
+
+            }
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+}

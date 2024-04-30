@@ -1,0 +1,258 @@
+.individual-gal-section {
+    max-width: $content-width;
+    margin: 0 auto;
+    margin-top: 140px;
+
+
+    .gal-solo-img {
+        @include gal-solo-img();
+        background-image: linear-gradient(#ffd140b3, rgba(255, 209, 64, 0.5)), url(../images/1.png);
+        position: relative;
+
+
+
+        .gal-ind-flex {
+            width: 100%;
+            display: flex;
+
+
+            .solo-calloutpt1 {
+                @include solo-calloutpt1();
+                text-shadow: 5px 5px 6px rgba(255, 209, 64, 0.5);
+                color: $site-yellow;
+
+            }
+
+            .solo-calloutpt2 {
+                @include solo-calloutpt2();
+                text-shadow: 5px 5px 6px rgba(255, 209, 64, 0.5);
+                color: $site-yellow;
+
+            }
+
+            // 2
+
+            .call2 {
+
+                text-shadow: 5px 5px 6px rgba(238, 67, 103, 0.5);
+                color: $site-red;
+
+            }
+
+
+            // 3
+            .call3 {
+
+                text-shadow: 5px 5px 6px rgba(8, 173, 105, 0.5);
+                color: #08AD69;
+
+            }
+
+            //4
+            .call4 {
+                width: 216px;
+                height: 344px;
+                text-shadow: 5px 5px 6px rgba(84, 13, 110, 0.5);
+                color: #540D6E;
+
+            }
+
+            .call41 {
+                width: 646x;
+                height: 133px;
+                text-shadow: 5px 5px 6px rgba(84, 13, 110, 0.5);
+                color: #540D6E;
+                font-size: 115px;
+                top: 70%;
+            }
+
+
+            .call5 {
+
+                text-shadow: 5px 5px 6px rgba(59, 206, 171, 0.5);
+                color: #3BCEAB;
+
+            }
+
+        }
+
+
+
+    }
+
+
+
+    .gal-solo-text-box {
+        @include gal-solo-text-box();
+
+        .gal-text1 {
+            @include gal-text1();
+
+        }
+
+        .gal-text2 {
+            @include gal-text2();
+
+        }
+    }
+
+    .solo-img2 {
+        background-image: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/2.jpeg);
+    }
+
+
+    .solo-img3 {
+        background-image: linear-gradient(rgba(8, 173, 105, 0.6), rgba(8, 173, 105, 0.6)), url(../images/3.jpg);
+    }
+
+
+    .solo-img4 {
+        background-image: linear-gradient(rgba(84, 13, 110, 0.6), rgba(84, 13, 110, 0.6)), url(../images/4.jpg);
+    }
+
+
+    .solo-img5 {
+        background-image: linear-gradient(rgba(59, 206, 171, 0.6), rgba(59, 206, 171, 0.6)), url(../images/5.png);
+    }
+
+
+}
+
+
+.footer-box gal-add {
+
+    @include footer-box();
+}
+
+
+
+@media all and (max-width: 800px) {
+
+
+
+    .individual-gal-section {
+        max-width: $content-width;
+        margin: 0 auto;
+        margin-top: 140px;
+        padding: 15px;
+
+        .gal-solo-img {
+            @include gal-solo-img();
+            background-image: linear-gradient(#ffd140b3, rgba(255, 209, 64, 0.5)), url(../images/1.png);
+            position: relative;
+
+
+
+            .gal-ind-flex {
+                width: 100%;
+                display: flex;
+
+
+                .solo-calloutpt1 {
+                    @include solo-calloutpt1();
+                    left: 4%;
+                    text-shadow: 5px 5px 6px rgba(255, 209, 64, 0.5);
+                    color: $site-yellow;
+                    font-size: 80px
+                }
+
+                .solo-calloutpt2 {
+                    @include solo-calloutpt2();
+                    left: 4%;
+                    text-shadow: 5px 5px 6px rgba(255, 209, 64, 0.5);
+                    color: $site-yellow;
+                    font-size: 80px;
+                }
+
+                // 2
+
+                .call2 {
+
+                    text-shadow: 5px 5px 6px rgba(238, 67, 103, 0.5);
+                    color: $site-red;
+
+                }
+
+
+                // 3
+                .call3 {
+
+                    text-shadow: 5px 5px 6px rgba(8, 173, 105, 0.5);
+                    color: #08AD69;
+
+                }
+
+                //4
+                .call4 {
+                    width: 216px;
+                    height: 344px;
+                    text-shadow: 5px 5px 6px rgba(84, 13, 110, 0.5);
+                    color: #540D6E;
+
+                }
+
+                .call41 {
+                    width: 646x;
+                    height: 133px;
+                    text-shadow: 5px 5px 6px rgba(84, 13, 110, 0.5);
+                    color: #540D6E;
+                    font-size: 60px;
+                    top: 70%;
+                }
+
+
+                .call5 {
+
+                    text-shadow: 5px 5px 6px rgba(59, 206, 171, 0.5);
+                    color: #3BCEAB;
+
+                    font-size: 70px;
+
+                }
+
+            }
+
+
+
+        }
+
+
+
+        .gal-solo-text-box {
+            @include gal-solo-text-box();
+            padding-bottom: 30px;
+
+            .gal-text1 {
+                @include gal-text1();
+
+            }
+
+            .gal-text2 {
+                @include gal-text2();
+
+            }
+        }
+
+        .solo-img2 {
+            background-image: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/2.jpeg);
+        }
+
+
+        .solo-img3 {
+            background-image: linear-gradient(rgba(8, 173, 105, 0.6), rgba(8, 173, 105, 0.6)), url(../images/3.jpg);
+        }
+
+
+        .solo-img4 {
+            background-image: linear-gradient(rgba(84, 13, 110, 0.6), rgba(84, 13, 110, 0.6)), url(../images/4.jpg);
+        }
+
+
+        .solo-img5 {
+            background-image: linear-gradient(rgba(59, 206, 171, 0.6), rgba(59, 206, 171, 0.6)), url(../images/5.png);
+        }
+
+
+    }
+
+}

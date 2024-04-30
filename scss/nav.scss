@@ -1,0 +1,196 @@
+nav {
+    //background-color: yellow;
+    max-width: $content-width;
+    //max-width: 98%;
+    padding: 15px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+
+
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        //background-color: indigo;
+        width: 100%;
+
+        .nav-logo {
+
+            background-image: url(../images/logo-white\ .png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 92px;
+            height: 42px;
+            margin-bottom: 20px;
+            // margin-top: 30px;
+
+        }
+
+        .ham-burger-menu {
+            .fa-bars {
+                width: 22px;
+                height: 22px;
+                color: white;
+                font-size: 25px;
+                display: none;
+            }
+        }
+
+
+
+        .links-menu {
+
+
+            max-width: $content-width;
+            height: 42px;
+            //  margin-bottom: 28px;
+
+
+
+            .dash {
+                padding-left: 19px;
+
+                color: $site-red;
+
+                font-size: x-large;
+            }
+
+
+            a {
+                text-decoration: none;
+                color: $site-white;
+                font-size: 15px;
+                font-family: GillSansregular;
+                padding-left: 15px;
+            }
+        }
+
+
+
+
+
+
+    }
+
+
+    .horizontal-line {
+        border: none;
+        height: 2px;
+
+        max-width: $content-width;
+        background-color: $site-white;
+        margin: auto;
+
+
+
+    }
+
+}
+
+
+
+@media all and (max-width: 800px) {
+    nav {
+        //background-color: yellow;
+        max-width: $content-width;
+        //max-width: 98%;
+        padding: 15px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+
+
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            //background-color: indigo;
+            width: 100%;
+
+
+            .nav-logo {
+
+                background-image: url(../images/logo-white\ .png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 92px;
+                height: 42px;
+                margin-bottom: 20px;
+                // margin-top: 30px;
+                display: none;
+            }
+
+            .ham-burger-menu {
+                .fa-bars {
+                    width: 22px;
+                    height: 22px;
+                    color: white;
+                    font-size: 25px;
+                    display: block;
+                }
+            }
+
+
+
+            .links-menu {
+                display: none;
+
+                max-width: $content-width;
+                height: 42px;
+                //  margin-bottom: 28px;
+
+
+
+                .dash {
+                    padding-left: 19px;
+
+                    color: $site-red;
+
+                    font-size: x-large;
+                }
+
+
+                a {
+                    text-decoration: none;
+                    color: $site-white;
+                    font-size: 15px;
+                    font-family: GillSansregular;
+                    padding-left: 15px;
+                }
+            }
+
+
+
+
+
+
+        }
+
+
+        .horizontal-line {
+            border: none;
+            height: 2px;
+
+            max-width: $content-width;
+            background-color: $site-white;
+            margin: auto;
+
+
+
+        }
+
+    }
+}

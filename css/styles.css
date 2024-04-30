@@ -1,0 +1,2041 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSansregular;
+  src: url(../css/fonts/Gill\ Sans.otf);
+}
+@font-face {
+  font-family: PTSerif;
+  src: url(../css/fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: GillSansitalic;
+  src: url(../css/fonts/Gill\ Sans\ Italic.otf);
+}
+@font-face {
+  font-family: GillSansbolditalic;
+  src: url(../css/fonts/Gill\ Sans\ Bold\ Italic.otf);
+}
+@font-face {
+  font-family: GillSanslight;
+  src: url(../css/fonts/Gill\ Sans\ Light.otf);
+}
+@font-face {
+  font-family: GillSanslightitalic;
+  src: url(../css/fonts/Gill\ Sans\ Light\ Italic.otf);
+}
+@font-face {
+  font-family: GillSans;
+  src: url(../css/fonts/Gill\ Sans.otf);
+}
+nav {
+  max-width: 980px;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+nav .links .logo-black {
+  background-image: url(../images/logo-black.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 42px;
+  margin-bottom: 20px;
+}
+nav .links .ham-burger-menu .fa-bars {
+  width: 22px;
+  height: 22px;
+  color: white;
+  font-size: 25px;
+  display: none;
+}
+nav .links .link-black {
+  max-width: 980px;
+  height: 42px;
+}
+nav .links .link-black .dash {
+  padding-left: 19px;
+  color: #EE4367;
+  font-size: x-large;
+}
+nav .links .link-black a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: GillSansregular;
+  padding-left: 15px;
+}
+nav .line-black {
+  border: none;
+  height: 2px;
+  max-width: 980px;
+  background-color: black;
+  margin: auto;
+}
+
+@media all and (max-width: 800px) {
+  nav {
+    max-width: 980px;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  nav .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav .links .logo-black {
+    background-image: url(../images/logo-black.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92px;
+    height: 42px;
+    margin-bottom: 20px;
+    display: none;
+  }
+  nav .links .ham-burger-menu .fa-bars {
+    width: 22px;
+    height: 22px;
+    color: white;
+    font-size: 25px;
+  }
+  nav .links .menu2 .fa-bars {
+    color: black;
+    display: inline-block;
+  }
+  nav .links .link-black {
+    max-width: 980px;
+    height: 42px;
+    display: none;
+  }
+  nav .links .link-black .dash {
+    padding-left: 19px;
+    color: #EE4367;
+    font-size: x-large;
+  }
+  nav .links .link-black a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: GillSansregular;
+    padding-left: 15px;
+  }
+  nav .line-black {
+    border: none;
+    height: 2px;
+    max-width: 980px;
+    background-color: black;
+    margin: auto;
+  }
+}
+nav {
+  max-width: 980px;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+nav .links .nav-logo {
+  background-image: url(../images/logo-white\ .png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 42px;
+  margin-bottom: 20px;
+}
+nav .links .ham-burger-menu .fa-bars {
+  width: 22px;
+  height: 22px;
+  color: white;
+  font-size: 25px;
+  display: none;
+}
+nav .links .links-menu {
+  max-width: 980px;
+  height: 42px;
+}
+nav .links .links-menu .dash {
+  padding-left: 19px;
+  color: #EE4367;
+  font-size: x-large;
+}
+nav .links .links-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: GillSansregular;
+  padding-left: 15px;
+}
+nav .horizontal-line {
+  border: none;
+  height: 2px;
+  max-width: 980px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+@media all and (max-width: 800px) {
+  nav {
+    max-width: 980px;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  nav .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  nav .links .nav-logo {
+    background-image: url(../images/logo-white\ .png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92px;
+    height: 42px;
+    margin-bottom: 20px;
+    display: none;
+  }
+  nav .links .ham-burger-menu .fa-bars {
+    width: 22px;
+    height: 22px;
+    color: white;
+    font-size: 25px;
+    display: block;
+  }
+  nav .links .links-menu {
+    display: none;
+    max-width: 980px;
+    height: 42px;
+  }
+  nav .links .links-menu .dash {
+    padding-left: 19px;
+    color: #EE4367;
+    font-size: x-large;
+  }
+  nav .links .links-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: GillSansregular;
+    padding-left: 15px;
+  }
+  nav .horizontal-line {
+    border: none;
+    height: 2px;
+    max-width: 980px;
+    background-color: #ffffff;
+    margin: auto;
+  }
+}
+.home {
+  padding: 10px;
+}
+.home .hero {
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.home .callout-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 156px;
+}
+.home .callout-text-container .home-header {
+  height: 52px;
+  font-size: 40px;
+  font-family: PTSerif;
+  color: white;
+  padding-bottom: 10px;
+}
+.home .callout-text-container .home-header .home-minitext {
+  height: 23px;
+  font-size: 20px;
+  font-family: GillSansitalic;
+  color: #EE4367;
+  text-align: center;
+}
+.home .callout-text-container .home-lorem {
+  width: 416px;
+  height: 46px;
+  font-family: GillSansitalic;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+.home .callout-text-container .callout-button {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 123px;
+  height: 41px;
+  background-color: #EE4367;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: GillSansregular;
+}
+.home .johnsmith-box {
+  width: 818px;
+  background-color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.home .johnsmith-box .johnsmith-text-box {
+  width: 789px;
+  font-family: GillSansbolditalic;
+  color: #FFD140;
+  font-size: 15px;
+  text-align: left;
+}
+.home .johnsmith-box .johnsmith-info {
+  margin-top: -90px;
+  height: 19px;
+  font-family: PTSerif;
+  font-size: 15px;
+  color: #EE4367;
+}
+.home .johnsmith-box .johnsmith-info .company-box {
+  height: 13px;
+  color: #A8A8A8;
+  font-family: PTSerif;
+  font-size: 10px;
+}
+.home .events-container {
+  background-color: #540D6E;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .events-container .events-box {
+  width: 100%;
+}
+.home .events-container .events-box .events-heading {
+  width: 100%;
+  margin-left: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: GillSansregular;
+  letter-spacing: 2px;
+}
+.home .events-container .events-box .events-heading .events-line {
+  border: solid;
+  border-width: 1px;
+  width: 392px;
+  color: white;
+  margin-bottom: 34px;
+}
+.home .events-container .events-box .event-flex-box {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+}
+.home .events-container .events-box .event-flex-box .events-calinfo {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home .events-container .events-box .event-flex-box .events-calinfo .cal-box1 {
+  font-family: GillSansregular;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+}
+.home .events-container .events-box .event-flex-box .events-calinfo .cal-box2 {
+  font-family: GillSanslight;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+.home .events-container .events-box .event-flex-box .cal-text-box .cal-text1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: GillSansregular;
+  color: white;
+}
+.home .events-container .events-box .event-flex-box .cal-text-box .cal-text2 {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: GillSansregular;
+  color: #EE4367;
+}
+.home .footer-box {
+  width: 100%;
+  background-color: #EE4367;
+  height: 455px;
+}
+.home .footer-box .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 455px;
+}
+.home .footer-box .footer-content .footer-event-logo {
+  background-image: url(../images/logo-white\ .png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 42px;
+}
+.home .footer-box .footer-content .footer-location {
+  text-align: center;
+}
+.home .footer-box .footer-content .footer-location .location1 {
+  font-family: GillSansregular;
+  font-size: 15px;
+  color: white;
+}
+.home .footer-box .footer-content .footer-location .location2 {
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: white;
+}
+.home .footer-box .footer-content .footer-location .location3 {
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: white;
+}
+.home .footer-box .footer-content .form #fname {
+  width: 529px;
+  height: 60px;
+  padding-left: 21px;
+  font-family: GillSansregular;
+  font-size: 16px;
+  background-color: #F56B88;
+  border: none;
+}
+.home .footer-box .footer-content .form #fname::placeholder {
+  color: white;
+}
+.home .footer-box .footer-content .form .sub-button {
+  height: 60px;
+  width: 167px;
+  background-color: white;
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: #EE4367;
+  border: none;
+  margin-left: -5px;
+}
+.home .footer-box .footer-content .footer-icons .user {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+.home .footer-box .footer-content .copyright-text {
+  width: 212;
+  height: 14px;
+  font-family: GillSansregular;
+  font-size: 12px;
+  color: white;
+}
+
+@media all and (max-width: 800px) {
+  .home {
+    padding: 10px;
+  }
+  .home .hero {
+    background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+  .home .callout-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 156px;
+  }
+  .home .callout-text-container .home-header {
+    height: 52px;
+    font-size: 40px;
+    font-family: PTSerif;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .home .callout-text-container .home-header .home-minitext {
+    height: 23px;
+    font-size: 20px;
+    font-family: GillSansitalic;
+    color: #EE4367;
+    text-align: center;
+  }
+  .home .callout-text-container .home-lorem {
+    width: 416px;
+    height: 46px;
+    font-family: GillSansitalic;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+  }
+  .home .callout-text-container .callout-button {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 123px;
+    height: 41px;
+    background-color: #EE4367;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: GillSansregular;
+  }
+  .home .johnsmith-box {
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .home .johnsmith-box .johnsmith-text-box {
+    width: 100%;
+    font-family: GillSansbolditalic;
+    color: #FFD140;
+    font-size: 15px;
+    text-align: left;
+  }
+  .home .johnsmith-box .johnsmith-info {
+    margin-top: -90px;
+    height: 19px;
+    font-family: PTSerif;
+    font-size: 15px;
+    color: #EE4367;
+  }
+  .home .johnsmith-box .johnsmith-info .company-box {
+    height: 13px;
+    color: #A8A8A8;
+    font-family: PTSerif;
+    font-size: 10px;
+  }
+  .home .events-container {
+    background-color: #540D6E;
+    width: 100%;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .home .events-container .events-box {
+    width: 100%;
+  }
+  .home .events-container .events-box .events-heading {
+    width: 100%;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: GillSansregular;
+    letter-spacing: 2px;
+  }
+  .home .events-container .events-box .events-heading .events-line {
+    border: solid;
+    border-width: 1px;
+    width: 392px;
+    color: white;
+    margin-bottom: 34px;
+  }
+  .home .events-container .events-box .event-flex-box {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+  .home .events-container .events-box .event-flex-box .events-calinfo {
+    width: 60px;
+    height: 60px;
+    background-color: #EE4367;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .home .events-container .events-box .event-flex-box .events-calinfo .cal-box1 {
+    font-family: GillSansregular;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+  }
+  .home .events-container .events-box .event-flex-box .events-calinfo .cal-box2 {
+    font-family: GillSanslight;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+  }
+  .home .events-container .events-box .event-flex-box .cal-text-box .cal-text1 {
+    width: 140px;
+    height: 41px;
+    font-size: 15px;
+    font-family: GillSansregular;
+    color: white;
+  }
+  .home .events-container .events-box .event-flex-box .cal-text-box .cal-text2 {
+    width: 140px;
+    height: 78px;
+    font-size: 13px;
+    font-family: GillSansregular;
+    color: #EE4367;
+  }
+  .home .footer-box {
+    width: 100%;
+    background-color: #EE4367;
+    height: 455px;
+  }
+  .home .footer-box .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 455px;
+  }
+  .home .footer-box .footer-content .footer-event-logo {
+    background-image: url(../images/logo-white\ .png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92px;
+    height: 42px;
+  }
+  .home .footer-box .footer-content .footer-location {
+    text-align: center;
+  }
+  .home .footer-box .footer-content .footer-location .location1 {
+    font-family: GillSansregular;
+    font-size: 15px;
+    color: white;
+  }
+  .home .footer-box .footer-content .footer-location .location2 {
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: white;
+  }
+  .home .footer-box .footer-content .footer-location .location3 {
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: white;
+  }
+  .home .footer-box .footer-content .form {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home .footer-box .footer-content .form #fname {
+    width: 100%;
+    height: 60px;
+    padding-left: 21px;
+    font-family: GillSansregular;
+    font-size: 16px;
+    background-color: #F56B88;
+    border: none;
+  }
+  .home .footer-box .footer-content .form #fname::placeholder {
+    color: white;
+  }
+  .home .footer-box .footer-content .form .sub-button {
+    height: 60px;
+    width: 167px;
+    background-color: white;
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: #EE4367;
+    border: none;
+    margin-left: -5px;
+  }
+  .home .footer-box .footer-content .footer-icons .user {
+    width: 22px;
+    height: 22px;
+    color: white;
+  }
+  .home .footer-box .footer-content .copyright-text {
+    width: 212;
+    height: 14px;
+    font-family: GillSansregular;
+    font-size: 12px;
+    color: white;
+  }
+}
+.about-section .about-content {
+  max-width: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 140px;
+  height: 540px;
+}
+.about-section .about-content .about-hero {
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/about.jpg);
+  width: 100%;
+  height: 378px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+.about-section .about-content .about-hero .about-callout-text {
+  font-family: GillSansregular;
+  font-size: 25px;
+  width: 195px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 94%;
+}
+.about-section .about-content .about-hori-line {
+  border: solid;
+  border-width: 1px;
+  width: 229px;
+  color: black;
+}
+.about-section .about-content .about-text {
+  width: 980px;
+  height: 96px;
+  font-family: GillSanslightitalic;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+.about-section .footer-box {
+  width: 100%;
+  background-color: #EE4367;
+  height: 455px;
+}
+.about-section .footer-box .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 455px;
+}
+.about-section .footer-box .footer-content .footer-event-logo {
+  background-image: url(../images/logo-white\ .png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 42px;
+}
+.about-section .footer-box .footer-content .footer-location {
+  text-align: center;
+}
+.about-section .footer-box .footer-content .footer-location .location1 {
+  font-family: GillSansregular;
+  font-size: 15px;
+  color: white;
+}
+.about-section .footer-box .footer-content .footer-location .location2 {
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: white;
+}
+.about-section .footer-box .footer-content .footer-location .location3 {
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: white;
+}
+.about-section .footer-box .footer-content .form #fname {
+  width: 529px;
+  height: 60px;
+  padding-left: 21px;
+  font-family: GillSansregular;
+  font-size: 16px;
+  background-color: #F56B88;
+  border: none;
+}
+.about-section .footer-box .footer-content .form #fname::placeholder {
+  color: white;
+}
+.about-section .footer-box .footer-content .form .sub-button {
+  height: 60px;
+  width: 167px;
+  background-color: white;
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: #EE4367;
+  border: none;
+  margin-left: -5px;
+}
+.about-section .footer-box .footer-content .footer-icons .user {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+.about-section .footer-box .footer-content .copyright-text {
+  width: 212;
+  height: 14px;
+  font-family: GillSansregular;
+  font-size: 12px;
+  color: white;
+}
+
+@media all and (max-width: 800px) {
+  .about-section .about-content {
+    max-width: 980px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 140px;
+    height: 540px;
+  }
+  .about-section .about-content .about-hero {
+    background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/about.jpg);
+    width: 100%;
+    height: 378px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+  }
+  .about-section .about-content .about-hero .about-callout-text {
+    font-family: GillSansregular;
+    font-size: 25px;
+    width: 195px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 94%;
+  }
+  .about-section .about-content .about-hori-line {
+    border: solid;
+    border-width: 1px;
+    width: 229px;
+    color: black;
+  }
+  .about-section .about-content .about-text {
+    width: 100%;
+    height: 96px;
+    font-family: GillSanslightitalic;
+    font-size: 16px;
+    margin-bottom: 90px;
+    font-weight: lighter;
+    margin-top: 30px;
+  }
+  .about-section .footer-box {
+    width: 100%;
+    background-color: #EE4367;
+    height: 455px;
+  }
+  .about-section .footer-box .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 455px;
+  }
+  .about-section .footer-box .footer-content .footer-event-logo {
+    background-image: url(../images/logo-white\ .png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92px;
+    height: 42px;
+  }
+  .about-section .footer-box .footer-content .footer-location {
+    text-align: center;
+  }
+  .about-section .footer-box .footer-content .footer-location .location1 {
+    font-family: GillSansregular;
+    font-size: 15px;
+    color: white;
+  }
+  .about-section .footer-box .footer-content .footer-location .location2 {
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: white;
+  }
+  .about-section .footer-box .footer-content .footer-location .location3 {
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: white;
+  }
+  .about-section .footer-box .footer-content .form {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-section .footer-box .footer-content .form #fname {
+    width: 100%;
+    height: 60px;
+    padding-left: 21px;
+    font-family: GillSansregular;
+    font-size: 16px;
+    background-color: #F56B88;
+    border: none;
+  }
+  .about-section .footer-box .footer-content .form #fname::placeholder {
+    color: white;
+  }
+  .about-section .footer-box .footer-content .form .sub-button {
+    height: 60px;
+    width: 167px;
+    background-color: white;
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: #EE4367;
+    border: none;
+    margin-left: -5px;
+  }
+  .about-section .footer-box .footer-content .footer-icons .user {
+    width: 22px;
+    height: 22px;
+    color: white;
+  }
+  .about-section .footer-box .footer-content .copyright-text {
+    width: 212;
+    height: 14px;
+    font-family: GillSansregular;
+    font-size: 12px;
+    color: white;
+  }
+}
+.gallery-section {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.gallery-section .gallery-header {
+  margin-bottom: 20px;
+  font-family: GillSansregular;
+  font-size: 25px;
+  width: 125px;
+  height: 29px;
+  letter-spacing: 2px;
+}
+.gallery-section .gallery-header .gallery-line {
+  border: solid;
+  border-width: 1px;
+  width: 229px;
+  color: black;
+}
+.gallery-section .gallery-flex-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallery-section .gallery-flex-box .gallery-img1 {
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/1.png);
+  width: 489px;
+  height: 187px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery-section .gallery-flex-box .gallery-img2 {
+  background-image: linear-gradient(rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url(../images/2.jpeg);
+  width: 187px;
+  height: 187px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery-section .gallery-flex-box .gallery-img3 {
+  background-image: linear-gradient(rgba(8, 173, 105, 0.8), rgba(8, 173, 105, 0.8)), url(../images/3.jpg);
+  width: 265px;
+  height: 187px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery-section .gallery-flex-box .gallery-img4 {
+  background-image: linear-gradient(rgba(84, 13, 110, 0.8), rgba(84, 13, 110, 0.8)), url(../images/4.jpg);
+  width: 603px;
+  height: 306px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+.gallery-section .gallery-flex-box .gallery-img5 {
+  background-image: linear-gradient(rgba(59, 206, 171, 0.8), rgba(59, 206, 171, 0.8)), url(../images/5.png);
+  width: 355px;
+  height: 306px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+
+.footer-box {
+  width: 100%;
+  background-color: #EE4367;
+  height: 455px;
+}
+.footer-box .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 455px;
+}
+.footer-box .footer-content .footer-event-logo {
+  background-image: url(../images/logo-white\ .png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 42px;
+}
+.footer-box .footer-content .footer-location {
+  text-align: center;
+}
+.footer-box .footer-content .footer-location .location1 {
+  font-family: GillSansregular;
+  font-size: 15px;
+  color: white;
+}
+.footer-box .footer-content .footer-location .location2 {
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: white;
+}
+.footer-box .footer-content .footer-location .location3 {
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: white;
+}
+.footer-box .footer-content .form #fname {
+  width: 529px;
+  height: 60px;
+  padding-left: 21px;
+  font-family: GillSansregular;
+  font-size: 16px;
+  background-color: #F56B88;
+  border: none;
+}
+.footer-box .footer-content .form #fname::placeholder {
+  color: white;
+}
+.footer-box .footer-content .form .sub-button {
+  height: 60px;
+  width: 167px;
+  background-color: white;
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: #EE4367;
+  border: none;
+  margin-left: -5px;
+}
+.footer-box .footer-content .footer-icons .user {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+.footer-box .footer-content .copyright-text {
+  width: 212;
+  height: 14px;
+  font-family: GillSansregular;
+  font-size: 12px;
+  color: white;
+}
+
+.gal-add {
+  margin-top: 60px;
+}
+
+@media all and (max-width: 800px) {
+  .gallery-section {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 140px;
+    padding: 15px;
+  }
+  .gallery-section .gallery-header {
+    margin-bottom: 20px;
+    font-family: GillSansregular;
+    font-size: 25px;
+    width: 125px;
+    height: 29px;
+    letter-spacing: 2px;
+  }
+  .gallery-section .gallery-header .gallery-line {
+    border: solid;
+    border-width: 1px;
+    width: 229px;
+    color: black;
+  }
+  .gallery-section .gallery-flex-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 25px;
+  }
+  .gallery-section .gallery-flex-box .gallery-img1 {
+    background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/1.png);
+    width: 489px;
+    height: 187px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery-section .gallery-flex-box .gallery-img2 {
+    background-image: linear-gradient(rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url(../images/2.jpeg);
+    width: 187px;
+    height: 187px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery-section .gallery-flex-box .gallery-img3 {
+    background-image: linear-gradient(rgba(8, 173, 105, 0.8), rgba(8, 173, 105, 0.8)), url(../images/3.jpg);
+    width: 265px;
+    height: 187px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery-section .gallery-flex-box .gallery-img4 {
+    background-image: linear-gradient(rgba(84, 13, 110, 0.8), rgba(84, 13, 110, 0.8)), url(../images/4.jpg);
+    width: 603px;
+    height: 306px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+  .gallery-section .gallery-flex-box .gallery-img5 {
+    background-image: linear-gradient(rgba(59, 206, 171, 0.8), rgba(59, 206, 171, 0.8)), url(../images/5.png);
+    width: 355px;
+    height: 306px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+  .footer-box {
+    width: 100%;
+    background-color: #EE4367;
+    height: 455px;
+  }
+  .footer-box .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 455px;
+  }
+  .footer-box .footer-content .footer-event-logo {
+    background-image: url(../images/logo-white\ .png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92px;
+    height: 42px;
+  }
+  .footer-box .footer-content .footer-location {
+    text-align: center;
+  }
+  .footer-box .footer-content .footer-location .location1 {
+    font-family: GillSansregular;
+    font-size: 15px;
+    color: white;
+  }
+  .footer-box .footer-content .footer-location .location2 {
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: white;
+  }
+  .footer-box .footer-content .footer-location .location3 {
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: white;
+  }
+  .footer-box .footer-content .form {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-box .footer-content .form #fname {
+    width: 100%;
+    height: 60px;
+    padding-left: 21px;
+    font-family: GillSansregular;
+    font-size: 16px;
+    background-color: #F56B88;
+    border: none;
+  }
+  .footer-box .footer-content .form #fname::placeholder {
+    color: white;
+  }
+  .footer-box .footer-content .form .sub-button {
+    height: 60px;
+    width: 167px;
+    background-color: white;
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: #EE4367;
+    border: none;
+    margin-left: -5px;
+  }
+  .footer-box .footer-content .footer-icons .user {
+    width: 22px;
+    height: 22px;
+    color: white;
+  }
+  .footer-box .footer-content .copyright-text {
+    width: 212;
+    height: 14px;
+    font-family: GillSansregular;
+    font-size: 12px;
+    color: white;
+  }
+}
+.individual-gal-section {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.individual-gal-section .gal-solo-img {
+  width: 100%;
+  height: 378px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7019607843), rgba(255, 209, 64, 0.5)), url(../images/1.png);
+  position: relative;
+}
+.individual-gal-section .gal-solo-img .gal-ind-flex {
+  width: 100%;
+  display: flex;
+}
+.individual-gal-section .gal-solo-img .gal-ind-flex .solo-calloutpt1 {
+  width: 216px;
+  height: 344px;
+  font-family: GillSansregular;
+  font-size: 300px;
+  text-shadow: 3px 3px 8px;
+  position: absolute;
+  top: 25%;
+  text-shadow: 5px 5px 6px rgba(255, 209, 64, 0.5);
+  color: #FFD140;
+}
+.individual-gal-section .gal-solo-img .gal-ind-flex .solo-calloutpt2 {
+  width: 724px;
+  height: 161px;
+  font-family: GillSansregular;
+  font-size: 140px;
+  position: absolute;
+  right: 5%;
+  top: 65%;
+  right: 2%;
+  text-shadow: 5px 5px 6px rgba(255, 209, 64, 0.5);
+  color: #FFD140;
+}
+.individual-gal-section .gal-solo-img .gal-ind-flex .call2 {
+  text-shadow: 5px 5px 6px rgba(238, 67, 103, 0.5);
+  color: #EE4367;
+}
+.individual-gal-section .gal-solo-img .gal-ind-flex .call3 {
+  text-shadow: 5px 5px 6px rgba(8, 173, 105, 0.5);
+  color: #08AD69;
+}
+.individual-gal-section .gal-solo-img .gal-ind-flex .call4 {
+  width: 216px;
+  height: 344px;
+  text-shadow: 5px 5px 6px rgba(84, 13, 110, 0.5);
+  color: #540D6E;
+}
+.individual-gal-section .gal-solo-img .gal-ind-flex .call41 {
+  width: 646x;
+  height: 133px;
+  text-shadow: 5px 5px 6px rgba(84, 13, 110, 0.5);
+  color: #540D6E;
+  font-size: 115px;
+  top: 70%;
+}
+.individual-gal-section .gal-solo-img .gal-ind-flex .call5 {
+  text-shadow: 5px 5px 6px rgba(59, 206, 171, 0.5);
+  color: #3BCEAB;
+}
+.individual-gal-section .gal-solo-text-box {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.individual-gal-section .gal-solo-text-box .gal-text1 {
+  width: 490px;
+  height: 133px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: GillSanslightitalic;
+  text-align: left;
+}
+.individual-gal-section .gal-solo-text-box .gal-text2 {
+  width: 451px;
+  height: 133px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: GillSanslightitalic;
+  text-align: left;
+}
+.individual-gal-section .solo-img2 {
+  background-image: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/2.jpeg);
+}
+.individual-gal-section .solo-img3 {
+  background-image: linear-gradient(rgba(8, 173, 105, 0.6), rgba(8, 173, 105, 0.6)), url(../images/3.jpg);
+}
+.individual-gal-section .solo-img4 {
+  background-image: linear-gradient(rgba(84, 13, 110, 0.6), rgba(84, 13, 110, 0.6)), url(../images/4.jpg);
+}
+.individual-gal-section .solo-img5 {
+  background-image: linear-gradient(rgba(59, 206, 171, 0.6), rgba(59, 206, 171, 0.6)), url(../images/5.png);
+}
+
+.footer-box gal-add .footer-box {
+  width: 100%;
+  background-color: #EE4367;
+  height: 455px;
+}
+.footer-box gal-add .footer-box .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 455px;
+}
+.footer-box gal-add .footer-box .footer-content .footer-event-logo {
+  background-image: url(../images/logo-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 42px;
+}
+.footer-box gal-add .footer-box .footer-content .footer-location {
+  text-align: center;
+}
+.footer-box gal-add .footer-box .footer-content .footer-location .location1,
+.footer-box gal-add .footer-box .footer-content .footer-location .location2,
+.footer-box gal-add .footer-box .footer-content .footer-location .location3 {
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: white;
+}
+.footer-box gal-add .footer-box .footer-content .form #fname {
+  width: 529px;
+  height: 60px;
+  padding-left: 21px;
+  font-family: GillSansregular;
+  font-size: 16px;
+  background-color: #F56B88;
+  border: none;
+}
+.footer-box gal-add .footer-box .footer-content .form #fname::placeholder {
+  color: white;
+}
+.footer-box gal-add .footer-box .footer-content .form .sub-button {
+  height: 60px;
+  width: 167px;
+  background-color: white;
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: #EE4367;
+  border: none;
+  margin-left: -5px;
+}
+.footer-box gal-add .footer-box .footer-content .footer-icons .user {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+.footer-box gal-add .footer-box .footer-content .copyright-text {
+  width: 212px;
+  height: 14px;
+  font-family: GillSansregular;
+  font-size: 12px;
+  color: white;
+}
+.footer-box gal-add .gal-add {
+  margin-top: 60px;
+  width: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .individual-gal-section {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 140px;
+    padding: 15px;
+  }
+  .individual-gal-section .gal-solo-img {
+    width: 100%;
+    height: 378px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(255, 209, 64, 0.7019607843), rgba(255, 209, 64, 0.5)), url(../images/1.png);
+    position: relative;
+  }
+  .individual-gal-section .gal-solo-img .gal-ind-flex {
+    width: 100%;
+    display: flex;
+  }
+  .individual-gal-section .gal-solo-img .gal-ind-flex .solo-calloutpt1 {
+    width: 216px;
+    height: 344px;
+    font-family: GillSansregular;
+    font-size: 300px;
+    text-shadow: 3px 3px 8px;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    text-shadow: 5px 5px 6px rgba(255, 209, 64, 0.5);
+    color: #FFD140;
+    font-size: 80px;
+  }
+  .individual-gal-section .gal-solo-img .gal-ind-flex .solo-calloutpt2 {
+    width: 724px;
+    height: 161px;
+    font-family: GillSansregular;
+    font-size: 140px;
+    position: absolute;
+    right: 5%;
+    top: 65%;
+    right: 2%;
+    left: 4%;
+    text-shadow: 5px 5px 6px rgba(255, 209, 64, 0.5);
+    color: #FFD140;
+    font-size: 80px;
+  }
+  .individual-gal-section .gal-solo-img .gal-ind-flex .call2 {
+    text-shadow: 5px 5px 6px rgba(238, 67, 103, 0.5);
+    color: #EE4367;
+  }
+  .individual-gal-section .gal-solo-img .gal-ind-flex .call3 {
+    text-shadow: 5px 5px 6px rgba(8, 173, 105, 0.5);
+    color: #08AD69;
+  }
+  .individual-gal-section .gal-solo-img .gal-ind-flex .call4 {
+    width: 216px;
+    height: 344px;
+    text-shadow: 5px 5px 6px rgba(84, 13, 110, 0.5);
+    color: #540D6E;
+  }
+  .individual-gal-section .gal-solo-img .gal-ind-flex .call41 {
+    width: 646x;
+    height: 133px;
+    text-shadow: 5px 5px 6px rgba(84, 13, 110, 0.5);
+    color: #540D6E;
+    font-size: 60px;
+    top: 70%;
+  }
+  .individual-gal-section .gal-solo-img .gal-ind-flex .call5 {
+    text-shadow: 5px 5px 6px rgba(59, 206, 171, 0.5);
+    color: #3BCEAB;
+    font-size: 70px;
+  }
+  .individual-gal-section .gal-solo-text-box {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .individual-gal-section .gal-solo-text-box .gal-text1 {
+    width: 490px;
+    height: 133px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: GillSanslightitalic;
+    text-align: left;
+  }
+  .individual-gal-section .gal-solo-text-box .gal-text2 {
+    width: 451px;
+    height: 133px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: GillSanslightitalic;
+    text-align: left;
+  }
+  .individual-gal-section .solo-img2 {
+    background-image: linear-gradient(rgba(238, 67, 103, 0.6), rgba(238, 67, 103, 0.6)), url(../images/2.jpeg);
+  }
+  .individual-gal-section .solo-img3 {
+    background-image: linear-gradient(rgba(8, 173, 105, 0.6), rgba(8, 173, 105, 0.6)), url(../images/3.jpg);
+  }
+  .individual-gal-section .solo-img4 {
+    background-image: linear-gradient(rgba(84, 13, 110, 0.6), rgba(84, 13, 110, 0.6)), url(../images/4.jpg);
+  }
+  .individual-gal-section .solo-img5 {
+    background-image: linear-gradient(rgba(59, 206, 171, 0.6), rgba(59, 206, 171, 0.6)), url(../images/5.png);
+  }
+}
+.blog-section {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.blog-section .blog-header {
+  font-size: 25px;
+  font-family: GillSansregular;
+  width: 81px;
+  height: 29px;
+}
+.blog-section .blog-line {
+  border: solid;
+  border-width: 1px;
+  width: 150px;
+  color: black;
+}
+.blog-section .blog-fc {
+  margin-top: 30px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blog-section .blog-fc .blog-cal-box {
+  height: 60px;
+  width: 60px;
+  background-color: #EE4367;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.blog-section .blog-fc .blog-cal-box .blog-cal {
+  font-family: GillSans;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+}
+.blog-section .blog-fc .blog-cal-box .blog-cal2 {
+  font-family: GillSans;
+  font-weight: lighter;
+  color: white;
+  font-size: 12px;
+}
+.blog-section .blog-fc .img-info-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 240px;
+}
+.blog-section .blog-fc .img-info-box .blog-img {
+  width: 380px;
+  height: 140px;
+  background-image: url(../images/blog\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog-section .blog-fc .img-info-box .blog-text {
+  font-family: GillSansregular;
+  font-size: 15px;
+  width: 242;
+  height: 22px;
+}
+.blog-section .blog-fc .img-info-box .blog-text2 {
+  width: 380px;
+  height: 64px;
+  font-family: GillSansregular;
+  font-size: 13px;
+  color: #EE4367;
+  margin-bottom: 20px;
+}
+.blog-section .blog-box2 {
+  width: 92%;
+}
+.blog-section footer-box gal-add .footer-box {
+  width: 100%;
+  background-color: #EE4367;
+  height: 455px;
+}
+.blog-section footer-box gal-add .footer-box .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 455px;
+}
+.blog-section footer-box gal-add .footer-box .footer-content .footer-event-logo {
+  background-image: url(../images/logo-white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 92px;
+  height: 42px;
+}
+.blog-section footer-box gal-add .footer-box .footer-content .footer-location {
+  text-align: center;
+}
+.blog-section footer-box gal-add .footer-box .footer-content .footer-location .location1,
+.blog-section footer-box gal-add .footer-box .footer-content .footer-location .location2,
+.blog-section footer-box gal-add .footer-box .footer-content .footer-location .location3 {
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: white;
+}
+.blog-section footer-box gal-add .footer-box .footer-content .form #fname {
+  width: 529px;
+  height: 60px;
+  padding-left: 21px;
+  font-family: GillSansregular;
+  font-size: 16px;
+  background-color: #F56B88;
+  border: none;
+}
+.blog-section footer-box gal-add .footer-box .footer-content .form #fname::placeholder {
+  color: white;
+}
+.blog-section footer-box gal-add .footer-box .footer-content .form .sub-button {
+  height: 60px;
+  width: 167px;
+  background-color: white;
+  font-family: GillSansregular;
+  font-size: 16px;
+  color: #EE4367;
+  border: none;
+  margin-left: -5px;
+}
+.blog-section footer-box gal-add .footer-box .footer-content .footer-icons .user {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+.blog-section footer-box gal-add .footer-box .footer-content .copyright-text {
+  width: 212px;
+  height: 14px;
+  font-family: GillSansregular;
+  font-size: 12px;
+  color: white;
+}
+.blog-section footer-box gal-add .gal-add {
+  margin-top: 60px;
+  width: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .blog-section {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 90%;
+    padding: 15px;
+  }
+  .blog-section .blog-header {
+    font-size: 25px;
+    font-family: GillSansregular;
+    width: 81px;
+    height: 29px;
+  }
+  .blog-section .blog-line {
+    border: solid;
+    border-width: 1px;
+    width: 150px;
+    color: black;
+  }
+  .blog-section .blog-fc {
+    margin-top: 30px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .blog-section .blog-fc .blog-cal-box {
+    height: 60px;
+    width: 60px;
+    background-color: #EE4367;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .blog-section .blog-fc .blog-cal-box .blog-cal {
+    font-family: GillSans;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+  }
+  .blog-section .blog-fc .blog-cal-box .blog-cal2 {
+    font-family: GillSans;
+    font-weight: lighter;
+    color: white;
+    font-size: 12px;
+  }
+  .blog-section .blog-fc .img-info-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 240px;
+  }
+  .blog-section .blog-fc .img-info-box .blog-img {
+    width: 380px;
+    height: 140px;
+    background-image: url(../images/blog\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .blog-section .blog-fc .img-info-box .blog-text {
+    font-family: GillSansregular;
+    font-size: 15px;
+    width: 242;
+    height: 22px;
+  }
+  .blog-section .blog-fc .img-info-box .blog-text2 {
+    width: 380px;
+    height: 64px;
+    font-family: GillSansregular;
+    font-size: 13px;
+    color: #EE4367;
+    margin-bottom: 20px;
+  }
+  .blog-section .blog-box2 {
+    width: 92%;
+  }
+  .blog-section footer-box gal-add .footer-box {
+    width: 100%;
+    background-color: #EE4367;
+    height: 455px;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 455px;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content .footer-event-logo {
+    background-image: url(../images/logo-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92px;
+    height: 42px;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content .footer-location {
+    text-align: center;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content .footer-location .location1,
+  .blog-section footer-box gal-add .footer-box .footer-content .footer-location .location2,
+  .blog-section footer-box gal-add .footer-box .footer-content .footer-location .location3 {
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: white;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content .form #fname {
+    width: 529px;
+    height: 60px;
+    padding-left: 21px;
+    font-family: GillSansregular;
+    font-size: 16px;
+    background-color: #F56B88;
+    border: none;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content .form #fname::placeholder {
+    color: white;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content .form .sub-button {
+    height: 60px;
+    width: 167px;
+    background-color: white;
+    font-family: GillSansregular;
+    font-size: 16px;
+    color: #EE4367;
+    border: none;
+    margin-left: -5px;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content .footer-icons .user {
+    width: 22px;
+    height: 22px;
+    color: white;
+  }
+  .blog-section footer-box gal-add .footer-box .footer-content .copyright-text {
+    width: 212px;
+    height: 14px;
+    font-family: GillSansregular;
+    font-size: 12px;
+    color: white;
+  }
+  .blog-section footer-box gal-add .gal-add {
+    margin-top: 60px;
+    width: 100%;
+  }
+}
+.contact-section {
+  max-width: 980px;
+  margin: auto;
+  margin-top: 160px;
+  padding: 10px;
+}
+.contact-section .contact-header-box .contact-header {
+  font-family: GillSansregular;
+  font-size: 25px;
+  width: 189px;
+  height: 29px;
+}
+.contact-section .contact-header-box .contact-line {
+  border: solid 1px black;
+  width: 229px;
+  margin-bottom: 50px;
+}
+.contact-section .contact-fc-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.contact-section .contact-fc-box .contact-info-box {
+  width: 45%;
+  margin-right: 20px;
+}
+.contact-section .contact-fc-box .contact-info-box .contact-map {
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 400px;
+  height: 442px;
+  margin-bottom: 34px;
+}
+.contact-section .contact-fc-box .contact-form {
+  width: 45%;
+}
+.contact-section .contact-fc-box .contact-form .form {
+  width: 100%;
+}
+.contact-section .contact-fc-box .contact-form .form #fname {
+  width: 100%;
+  height: 60px;
+  padding-left: 21px;
+  font-family: GillSansregular;
+  font-size: 16px;
+  background-color: #F5F5F5;
+  border: none;
+  margin-bottom: 21px;
+}
+.contact-section .contact-fc-box .contact-form .form .lname {
+  width: 100%;
+  height: 199px;
+  padding-left: 21px;
+  font-family: GillSansregular;
+  font-size: 16px;
+  background-color: #F5F5F5;
+  border: none;
+  margin-bottom: 21px;
+}
+.contact-section .contact-fc-box .contact-form .form #sub {
+  width: 167px;
+  height: 60px;
+  background-color: #EE4367;
+  color: white;
+  border: none;
+  font-family: GillSansregular;
+  font-size: 16px;
+}
+
+.single-blog-section {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.single-blog-section .single-blog-img {
+  background-image: linear-gradient(rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url(../images/blog\ \(1\).jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.single-blog-section .single-blog-img .single-cal-box {
+  height: 60px;
+  width: 60px;
+  background-color: #EE4367;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.single-blog-section .single-blog-img .single-cal-box .single-cal-one {
+  font-family: GillSans;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+}
+.single-blog-section .single-blog-img .single-cal-box .single-cal-two {
+  font-family: GillSans;
+  font-weight: lighter;
+  color: white;
+  font-size: 12px;
+}
+.single-blog-section .single-blog-header-one {
+  font-family: GillSansregular;
+  font-size: 20px;
+  color: #EE4367;
+  padding-top: 45px;
+  margin-bottom: 20px;
+}
+.single-blog-section .single-blog-header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 110px;
+}
+.single-blog-section .single-blog-header-section .single-blog-header-text {
+  font-family: GillSans;
+  font-weight: lighter;
+  font-size: 20px;
+  width: 856px;
+  height: 84px;
+}
+
+@media all and (max-width: 800px) {
+  .single-blog-section {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 140px;
+    padding: 15px;
+  }
+  .single-blog-section .single-blog-img {
+    background-image: linear-gradient(rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url(../images/blog\ \(1\).jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .single-blog-section .single-blog-img .single-cal-box {
+    height: 60px;
+    width: 60px;
+    background-color: #EE4367;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .single-blog-section .single-blog-img .single-cal-box .single-cal-one {
+    font-family: GillSans;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+  }
+  .single-blog-section .single-blog-img .single-cal-box .single-cal-two {
+    font-family: GillSans;
+    font-weight: lighter;
+    color: white;
+    font-size: 12px;
+  }
+  .single-blog-section .single-blog-header-one {
+    font-family: GillSansregular;
+    font-size: 20px;
+    color: #EE4367;
+    padding-top: 45px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .single-blog-section .single-blog-header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 110px;
+  }
+  .single-blog-section .single-blog-header-section .single-blog-header-text {
+    font-family: GillSans;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 856px;
+    height: 84px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

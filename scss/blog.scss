@@ -1,0 +1,255 @@
+.blog-section {
+
+    max-width: $content-width;
+    margin: 0 auto;
+    margin-top: 140px;
+
+
+
+    .blog-header {
+
+        font-size: 25px;
+        font-family: GillSansregular;
+        width: 81px;
+        height: 29px;
+    }
+
+    .blog-line {
+
+        border: solid;
+        border-width: 1px;
+        width: 150px;
+        color: black;
+    }
+
+
+    .blog-fc {
+        margin-top: 30px;
+        width: 95%;
+        display: flex;
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+        //background-color: rebeccapurple;
+
+
+        .blog-cal-box {
+
+            height: 60px;
+            width: 60px;
+            background-color: $site-red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            position: relative;
+
+
+            .blog-cal {
+                font-family: GillSans;
+                font-weight: bold;
+                color: white;
+                font-size: 22px;
+            }
+
+            .blog-cal2 {
+                font-family: GillSans;
+                font-weight: lighter;
+                color: white;
+                font-size: 12px;
+            }
+        }
+
+
+
+        .img-info-box {
+            display: flex;
+
+            justify-content: space-between;
+            flex-direction: column;
+
+            height: 240px;
+
+
+            .blog-img {
+                width: 380px;
+                height: 140px;
+                background-image: url(../images/blog\ \(1\).jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+
+
+            .blog-text {
+                font-family: GillSansregular;
+                font-size: 15px;
+                width: 242;
+                height: 22px;
+            }
+
+
+
+            .blog-text2 {
+                width: 380px;
+                height: 64px;
+                font-family: GillSansregular;
+                font-size: 13px;
+                color: $site-red;
+                margin-bottom: 20px;
+            }
+
+
+        }
+
+
+    }
+
+    .blog-box2 {
+
+
+
+        width: 92%;
+    }
+
+
+    footer-box gal-add {
+
+        @include footer-box();
+    }
+
+
+}
+
+
+
+@media all and (max-width: 800px) {
+    .blog-section {
+
+        max-width: $content-width;
+        margin: 0 auto;
+        margin-top: 140px;
+        width: 90%;
+        padding: 15px;
+
+
+        .blog-header {
+
+            font-size: 25px;
+            font-family: GillSansregular;
+            width: 81px;
+            height: 29px;
+        }
+
+        .blog-line {
+
+            border: solid;
+            border-width: 1px;
+            width: 150px;
+            color: black;
+        }
+
+
+        .blog-fc {
+            margin-top: 30px;
+            width: 95%;
+            display: flex;
+
+            justify-content: space-between;
+            flex-wrap: wrap;
+            //background-color: rebeccapurple;
+
+
+            .blog-cal-box {
+
+                height: 60px;
+                width: 60px;
+                background-color: $site-red;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                position: relative;
+
+
+                .blog-cal {
+                    font-family: GillSans;
+                    font-weight: bold;
+                    color: white;
+                    font-size: 22px;
+                }
+
+                .blog-cal2 {
+                    font-family: GillSans;
+                    font-weight: lighter;
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+
+
+
+            .img-info-box {
+                display: flex;
+
+                justify-content: space-between;
+                flex-direction: column;
+
+                height: 240px;
+
+
+                .blog-img {
+                    width: 380px;
+                    height: 140px;
+                    background-image: url(../images/blog\ \(1\).jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+
+
+                .blog-text {
+                    font-family: GillSansregular;
+                    font-size: 15px;
+                    width: 242;
+                    height: 22px;
+                }
+
+
+
+                .blog-text2 {
+                    width: 380px;
+                    height: 64px;
+                    font-family: GillSansregular;
+                    font-size: 13px;
+                    color: $site-red;
+                    margin-bottom: 20px;
+                }
+
+
+            }
+
+
+        }
+
+        .blog-box2 {
+
+
+
+            width: 92%;
+        }
+
+
+        footer-box gal-add {
+
+            @include footer-box();
+        }
+
+
+    }
+
+}
